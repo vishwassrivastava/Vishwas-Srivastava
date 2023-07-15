@@ -1,0 +1,75 @@
+.section1{
+   width:50%;
+   height: 710px;
+  background-color: black;
+
+   display: flex;
+  justify-content: center;
+  opacity: 90%;
+ 
+ min-width: 500px;
+}
+
+
+
+h2{
+ color:white;
+ font-style: italic;
+}
+.title{
+
+width: 50%;
+max-width:500px;
+min-width:400px;
+height: 100%;
+padding-top: 250px;
+
+}
+p{
+ color:white;
+ font-style:italic;
+ text-align: left;
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: relative;
+    top: 0%;  
+    width: 100%;
+   
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-25%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(100) 1s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal
+            
+}
+@keyframes typewriter{
+  from{width: 0em;}
+  to{width: 80%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
