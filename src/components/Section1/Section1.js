@@ -24,7 +24,7 @@ function Section1() {
            
                  <h2 className='head'>It is my firm belief that with the right effort and systematic guidance, anyone can do well in life</h2>
              
-           
+           <p>Hello</p>
       </div>
      
      
